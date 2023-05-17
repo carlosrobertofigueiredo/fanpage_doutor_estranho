@@ -1,7 +1,1 @@
-$.ajax({
-    url: ' https://randomuser.me/api/ ',
-    dataType: ' json ',
-    sucesso: função( dados ) {
-      console.log( dados );
-    }
-  });
+apiBaseURL: 'https://apifrontendeiros-asp8.onrender.com/'
