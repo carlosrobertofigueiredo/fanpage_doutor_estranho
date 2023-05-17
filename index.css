@@ -1,0 +1,43 @@
+body{
+    background-image: url(/assets/doctor-strange.jpg);
+}
+
+#h1{
+    font-size: 100px;
+    color: rgb(185, 5, 5);
+}
+
+.menu {
+
+    position:relative;
+    overflow: hidden;
+    width: 35%;
+    margin: 20px;
+    border-radius: 8px ;
+    background:#044275;
+    text-align: inherit;
+}
+
+.menu a {
+display: inline-flex;
+width: 20%; /
+box-sizing: border-box;
+padding: 8px 8px;
+color: #fff;
+text-decoration:none;
+}
+
+.p1 p{ 
+margin: 25px;
+font-size: 22px;
+color:rgb(185, 5, 5);
+text-align: justify;
+width: 650px;
+    
+}
+
+.footer-top a{
+    text-decoration: none;
+    color: black;
+}
+
