@@ -5,7 +5,7 @@ body{
     /*background-attachment: fixed; */
     background-color: #000059;
     background-image: url(/assets/doctor-strange.jpg);
-    background-blend-mode:soft-light;
+    background-blend-mode: darken;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@ body{
 
 #h1{
     font-size: 70px;
-    color: rgb(190, 188, 188);
+    color: rgb(185, 5, 5);
     margin: 20px;
 }
 
@@ -22,7 +22,7 @@ body{
 
     position:relative;
     overflow: hidden;
-    width: 48%;
+    width: 45%;
     margin: 20px;
     border-radius: 8px ;
     background:#044275;
@@ -41,7 +41,7 @@ text-decoration:none;
 .p1 p{ 
 margin: 25px;
 font-size: 25px;
-color: rgb(190, 188, 188);
+color:rgb(185, 5, 5);
 text-align: justify;
 width: 650px;
     
@@ -49,11 +49,6 @@ width: 650px;
 
 .footer-top a{
     text-decoration: none;
-    color: rgb(190, 188, 188);
+    color: black;
 }
 
-
-.footer-top &copy{
-    color: rgb(190, 188, 188);
-
-}

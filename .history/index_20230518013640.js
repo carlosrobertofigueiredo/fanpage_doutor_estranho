@@ -1,3 +1,34 @@
+ // Carrega a página solicitada pela rota.
+ loadpage(path)
+
+ /**
+  * jQuery → Monitora cliques em elementos '<a>' que, se ocorre, chama a função 
+  * routerLink().
+  **/
+ $(document).on('click', 'a', routerLink)
+
+
+
+/**
+     * IMPORTANTE!
+     * Para que o roteamento funcione corretamente no "live server", é 
+     * necessário que erros 404 abram a página "404.html".
+     **/
+
+    // Verifica se o 'localStorage' contém uma rota.
+    if (sessionStorage.path == undefined) {
+
+        // Se não contém, aponta a rota 'home'.
+        sessionStorage.path = 'home'
+    }
+
+    // Armazena a rota obtida em 'path'.        
+    path = sessionStorage.path
+
+    // Apaga o 'localStorage', liberando o recurso.
+    delete sessionStorage.path
+
+   
 
 
 function routerLink() {
@@ -49,7 +80,7 @@ function routerLink() {
      * Encerra o processamento do link sem fazer mais nada. 'return false' 
      * bloqueia a ação normal do navegador sobre um link.
      **/
-    return   false
+    return false
 }
 
 /**

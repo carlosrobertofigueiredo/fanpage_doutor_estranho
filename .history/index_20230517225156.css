@@ -2,10 +2,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 body{
-    /*background-attachment: fixed; */
+    /* background-attachment: fixed; */
     background-color: #000059;
     background-image: url(/assets/doctor-strange.jpg);
-    background-blend-mode:soft-light;
+    img  opacity : 1; 
+    background-image: ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,16 +14,15 @@ body{
 }
 
 #h1{
-    font-size: 70px;
-    color: rgb(190, 188, 188);
-    margin: 20px;
+    font-size: 100px;
+    color: rgb(185, 5, 5);
 }
 
 .menu {
 
     position:relative;
     overflow: hidden;
-    width: 48%;
+    width: 35%;
     margin: 20px;
     border-radius: 8px ;
     background:#044275;
@@ -41,7 +41,7 @@ text-decoration:none;
 .p1 p{ 
 margin: 25px;
 font-size: 25px;
-color: rgb(190, 188, 188);
+color:rgb(185, 5, 5);
 text-align: justify;
 width: 650px;
     
@@ -49,11 +49,6 @@ width: 650px;
 
 .footer-top a{
     text-decoration: none;
-    color: rgb(190, 188, 188);
+    color: black;
 }
 
-
-.footer-top &copy{
-    color: rgb(190, 188, 188);
-
-}

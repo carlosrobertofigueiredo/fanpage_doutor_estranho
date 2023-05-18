@@ -1,5 +1,3 @@
-
-
 function routerLink() {
 
     /**
@@ -49,7 +47,7 @@ function routerLink() {
      * Encerra o processamento do link sem fazer mais nada. 'return false' 
      * bloqueia a ação normal do navegador sobre um link.
      **/
-    return   false
+    return false
 }
 
 /**

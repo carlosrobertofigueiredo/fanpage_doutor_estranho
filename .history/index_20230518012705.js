@@ -1,5 +1,3 @@
-
-
 function routerLink() {
 
     /**
@@ -49,7 +47,7 @@ function routerLink() {
      * Encerra o processamento do link sem fazer mais nada. 'return false' 
      * bloqueia a ação normal do navegador sobre um link.
      **/
-    return   false
+    return false
 }
 
 /**
@@ -97,7 +95,7 @@ function loadpage(page, updateURL = true) {
     const path = {
         html: `/pages/${page}/index.html`,
         css: `/pages/${page}/index.css`,
-        js: `/pages/${page}/index.js`,
+        js: `/pages/${page}/index.js`
     }
 
     /**

@@ -1,5 +1,3 @@
-
-
 function routerLink() {
 
     /**
@@ -38,7 +36,13 @@ function routerLink() {
         // Devolve o controle para o HTML.
         return true
 
-   
+    /**
+     * Se clicou no link para 'login', executa a função de login.
+     */
+    if (href == 'login') {
+        fbLogin()
+        return false
+    }
 
     /**
      * Carrega a rota solicitada.
@@ -49,7 +53,7 @@ function routerLink() {
      * Encerra o processamento do link sem fazer mais nada. 'return false' 
      * bloqueia a ação normal do navegador sobre um link.
      **/
-    return   false
+    return false
 }
 
 /**
@@ -95,9 +99,9 @@ function loadpage(page, updateURL = true) {
      *  • https://www.w3schools.com/js/js_string_templates.asp
      */
     const path = {
-        html: `/pages/${page}/index.html`,
-        css: `/pages/${page}/index.css`,
-        js: `/pages/${page}/index.js`,
+        html: `pages/${page}/index.html`,
+        css: `pages/${page}/index.css`,
+        js: `pages/${page}/index.js`
     }
 
     /**

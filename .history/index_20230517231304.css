@@ -22,7 +22,7 @@ body{
 
     position:relative;
     overflow: hidden;
-    width: 48%;
+    width: 45%;
     margin: 20px;
     border-radius: 8px ;
     background:#044275;
@@ -49,11 +49,6 @@ width: 650px;
 
 .footer-top a{
     text-decoration: none;
-    color: rgb(190, 188, 188);
+    color: black;
 }
 
-
-.footer-top &copy{
-    color: rgb(190, 188, 188);
-
-}
