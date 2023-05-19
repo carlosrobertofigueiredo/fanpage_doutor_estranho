@@ -4,7 +4,7 @@
 $(document).ready(runApp)
 
 
-Aqui começa a definição da função runApp(), que é chamada quando o documento está pronto.
+//Aqui começa a definição da função runApp(), que é chamada quando o documento está pronto.
 
 function runApp() {
 
